@@ -18,4 +18,5 @@ END
 
 run "touch tmp/.gitignore log/.gitignore vendor/.gitignore"
 
-git :add => ".", :commit => "-m 'initial commit'"
+git :add => "."
+git :commit => "-m 'initial commit'"
